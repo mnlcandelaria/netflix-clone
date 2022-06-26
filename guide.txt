@@ -1,0 +1,18 @@
+npx create-next-app --example with-tailwindcss netflix-yt-clone
+npm install tailwind-scrollbar-hide
+npm install --save-dev tailwind-scrollbar
+npm i react-icons
+
+*vscpde packages
+- es7/es6 snippets
+- tailwindcss css intellisense
+
+*links
+https://heroicons.com/ - use for icons
+https://www.themoviedb.org/ - use for movies
+https://developers.themoviedb.org/3/movies/get-movie-details
+
+Repo:
+https://github.com/lukef7fywmrp/netflix-redesign/
+
+console.firebase.google.com
