@@ -7,6 +7,7 @@ npm install firebase
 npm install react-hook-form
 npm install recoil
 npm install @mui/material @emotion/react @emotion/styled
+npm install react-hot-toast
 
 *vscpde packages
 - es7/es6 snippets
@@ -28,3 +29,6 @@ Repo:
 https://github.com/lukef7fywmrp/netflix-redesign/
 
 console.firebase.google.com
+
+Vercel:
+https://netflix-clone-fd09lv352-mnlcandelaria.vercel.app/
