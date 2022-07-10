@@ -1,7 +1,12 @@
 npx create-next-app --example with-tailwindcss netflix-yt-clone
+npm run dev
 npm install tailwind-scrollbar-hide
 npm install --save-dev tailwind-scrollbar
 npm i react-icons
+npm install firebase
+npm install react-hook-form
+npm install recoil
+npm install @mui/material @emotion/react @emotion/styled
 
 *vscpde packages
 - es7/es6 snippets
@@ -11,6 +16,13 @@ npm i react-icons
 https://heroicons.com/ - use for icons
 https://www.themoviedb.org/ - use for movies
 https://developers.themoviedb.org/3/movies/get-movie-details
+https://react-hook-form.com/
+https://usehooks.com/
+https://recoiljs.org/
+- same state for every component (global state)
+- use for simpliciy
+- redux is ue for production
+https://www.npmjs.com/package/react-player
 
 Repo:
 https://github.com/lukef7fywmrp/netflix-redesign/

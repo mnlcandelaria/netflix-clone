@@ -1,11 +1,18 @@
+//import { getProducts, Product } from '@stripe/firestore-stripe-payments'
 import Head from 'next/head'
-import Image from 'next/image'
-import Header from '../components/Header'
+import { useRecoilValue } from 'recoil'
+import { modalState, movieState } from '../atoms/modalAtom'
 import Banner from '../components/Banner'
-import requests from '../utils/requests'
-import { Movie } from '../typings'
-import React from 'react'
+import Header from '../components/Header'
+import Modal from '../components/Modal'
+//import Plans from '../components/Plans'
 import Row from '../components/Row'
+import useAuth from '../hooks/useAuth'
+//import useList from '../hooks/useList'
+//import useSubscription from '../hooks/useSubscription'
+//import payments from '../lib/stripe'
+import { Movie } from '../typings'
+import requests from '../utils/requests'
 
 interface Props {
   netflixOriginals: Movie[]
@@ -28,6 +35,11 @@ const Home = ({
   topRated,
   trendingNow,
 }: Props) => {
+  const { logout, loading } = useAuth()
+  const showModal = useRecoilValue(modalState)
+  const movie = useRecoilValue(movieState)
+
+  if (loading) return 'Loading'
   return (
     <div
       className="relative h-screen bg-gradient-to-b 
@@ -53,7 +65,7 @@ const Home = ({
           <Row title="Documentaries" movies={documentaries} />
         </section>
       </main>
-      {/* Modal */}
+      {showModal && <Modal />}
     </div>
   )
 }
