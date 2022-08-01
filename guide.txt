@@ -8,8 +8,12 @@ npm install react-hook-form
 npm install recoil
 npm install @mui/material @emotion/react @emotion/styled
 npm install react-hot-toast
+npm install @stripe/firestore-stripe-payments
+npm i --save-dev tailwindcss-textshadow
+npm install --save next-transpile-modules
+npm react hot toast
 
-*vscpde packages
+* vscode packages
 - es7/es6 snippets
 - tailwindcss css intellisense
 
@@ -28,7 +32,14 @@ https://www.npmjs.com/package/react-player
 Repo:
 https://github.com/lukef7fywmrp/netflix-redesign/
 
+Yt:
+https://www.youtube.com/watch?v=BbTyUo99Qvs
+
 console.firebase.google.com
+httpscallable triggers firebase - google chrome
 
 Vercel:
 https://netflix-clone-fd09lv352-mnlcandelaria.vercel.app/
+
+stripe test cards:
+https://stripe.com/docs/testing
